@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 13b</title>
+    <style>
+      .main-container,
+      .box1,
+      .box2,
+      .row1,
+      .row2 {
+        display: flex;
+      }
+
+      .row1{
+        justify-content: space-between;
+        margin-bottom: 2px;
+      }
+
+      .box1{
+        background-color: lightpink;
+        width:100px
+      }
+
+      .box2{
+        background-color: lightblue;
+        width: 200px;
+        flex-direction: column;
+      }
+
+      .row2{
+        justify-content: space-between;
+      }
+
+      span{
+        width:40px;
+        background-color: black;
+        color:white
+      }
+
+      .empty1{
+        background-color: lightpink;
+      }
+
+      .empty2{
+        background-color: lightblue;
+      }
+
+      .except{
+        background-color: lightblue;
+        color:black;
+      }
+    </style>
+  </head> 
+  <body>
+    <div class="main-container">
+      <div class="box1">
+        <span class="empty1"></span>
+      </div>
+      <div class="box2">
+        <div class="row1">
+          <span class="except">row1</span>
+          <span class="empty2"></span>
+        </div>
+        <div class="row2">
+          <span>row2</span>
+          <span>row2</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

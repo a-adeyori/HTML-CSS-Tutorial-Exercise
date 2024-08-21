@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 14e</title>
+
+    <style>
+      .header {
+        display: flex;
+        column-gap: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .name,
+      .add-button,
+      .message-button {
+        font-family: Arial;
+      }
+
+      img {
+        width: 20px;
+        border-radius: 10px;
+      }
+
+      .left-section {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: 40px;
+      }
+
+      .right-section {
+        display: flex;
+        column-gap: 8px;
+        margin-right: 20px;
+      }
+
+      .add-button {
+        background-color: rgb(55, 109, 209);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .message-button {
+        background-color: rgb(200, 200, 200);
+        border: none;
+        border-radius: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="image">
+          <img src="exercise-image.jpeg" />
+        </div>
+        <div class="name">Oliver Cat</div>
+      </div>
+
+      <div class="right-section">
+        <div>
+          <button class="add-button">Add Friend</button>
+        </div>
+        <div>
+          <button class="message-button">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

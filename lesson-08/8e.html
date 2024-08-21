@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 8e</title>
+    <style>
+        p{
+            font-size:30px;
+            
+        }
+        input{
+            display:block;
+            background-color:rgb(233, 233, 233) ;
+            border:none;
+            border-radius:5px;
+            width:280px;
+            height:30px
+        }
+
+        input::placeholder{
+            padding-left:7px;
+        }
+
+        .pickup-text{
+            margin-bottom:5px;
+        }
+
+        .destination-text{
+            margin-bottom:29px;
+
+        }
+        button{
+            border: none;
+            cursor: pointer;
+            padding-top:13px;
+            padding-bottom:13px;
+            padding-left:15px;
+            padding-right:15px;
+        }
+      .request-button {
+        background-color: black;
+        color: white;
+        margin-right:8px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <p>Request a ride now</p>
+    <input class='pickup-text'type="text" placeholder="Enter pickup location" />
+    <input class="destination-text" type="text" placeholder="Enter destination" />
+    <button class="request-button">Request now</button>
+    <button class="schedule-button">Schedule for later</button>
+  </body>
+</html>

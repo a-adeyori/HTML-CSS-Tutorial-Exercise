@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 15e</title>
+    <style>
+      .box {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+      }
+
+      img {
+        width: 200px;
+      }
+
+      .tag {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        padding: 3px 5px;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        z-index: 10;
+        display: inline;
+      }
+
+      .description {
+        position: absolute;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(200, 200, 200, 0.8);
+        height: 70px;
+      }
+
+      button {
+        border: 1px solid black;
+        padding: 4px 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="clothe-image.jfif" />
+      <div class="tag">20% OFF</div>
+      <div class="description">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

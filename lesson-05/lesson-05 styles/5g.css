@@ -1,0 +1,24 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .tag {
+    color: grey;
+    margin-left: 3px;
+  }
+
+  .content {
+    margin-bottom: 19px;
+  }
+
+  .tag2 {
+    color: rgb(0, 195, 255);
+    margin-left: 3px;
+    margin-right: 3px;
+  }

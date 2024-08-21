@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 13e</title>
+
+    <style>
+      .title {
+        color: grey;
+        margin-left: 10px;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      img {
+        width: 40px;
+        border-radius: 20px;
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .box-container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 370px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      .row1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3px;
+      }
+
+      .row2 {
+        margin-bottom: 2px;
+      }
+
+      .column1 {
+        margin-right: 10px;
+      }
+
+      .text1 {
+        font-size: 17px;
+      }
+
+      .text1,
+      .text2 {
+        font-weight: bold;
+      }
+
+      .text3,
+      .time {
+        color: grey;
+      }
+
+      .time {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="title-container">
+        <p class="title">ALL INBOXES</p>
+      </div>
+
+      <div class="container">
+        <div class="column1">
+          <img src="exercise-image.jpeg" />
+        </div>
+
+        <div class="column2">
+          <div class="row1">
+            <p class="text1">Chewy Promotions</p>
+            <p class="time">4:58 PM</p>
+          </div>
+
+          <div class="row2">
+            <p class="text2">Biggest sales of the year!</p>
+          </div>
+          <div class="row3">
+            <p class="text3">
+              Hey there! We're writing to tell you about our...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="column1">
+          <img src="exercise-image2.jpeg" />
+        </div>
+
+        <div class="column2">
+          <div class="row1">
+            <p class="text1">Best Buy</p>
+            <p class="time">12:32 PM</p>
+          </div>
+
+          <div class="row2">
+            <p class="text2">Your Best Buy eReceipt</p>
+          </div>
+          <div class="row3">
+            <p class="text3">Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="column1">
+          <img src="exercise-image3.jpeg" />
+        </div>
+
+        <div class="column2">
+          <div class="row1">
+            <p class="text1">Netflix</p>
+            <p class="time">9:00 AM</p>
+          </div>
+
+          <div class="row2">
+            <p class="text2">Here's what's coming soon to Netflix</p>
+          </div>
+          <div class="row3">
+            <p class="text3">Brand new movies and shows, old favourites...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

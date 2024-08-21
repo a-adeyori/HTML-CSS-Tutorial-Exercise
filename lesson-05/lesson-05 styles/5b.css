@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.first-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.second-text {
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(175, 70, 70);
+}

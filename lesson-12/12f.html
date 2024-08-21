@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 12e</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 50px;
+        background-color: rgb(164, 136, 194);
+        align-items: center;
+        height: 45px;
+        color: white;
+      }
+
+      input {
+        width: 390px;
+        border: none;
+        border-radius: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+      }
+
+      .button {
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .left-section {
+        margin-left: 5px;
+      }
+
+      .right-section {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">Home</div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">
+        <div class="button">Download</div>
+      </div>
+    </div>
+  </body>
+</html>

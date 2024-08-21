@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 13f</title>
+
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      img {
+        width: 40px;
+        border-radius: 20px;
+      }
+
+      .img-container {
+        margin-right: 10px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+      }
+
+      .col1 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        margin-bottom: 10px;
+      }
+
+      .first-column {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+
+      .second-row {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .empty {
+        width: 40px;
+      }
+
+      .empty-grey {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(220, 220, 220);
+        margin-right: 10px;
+      }
+
+      .column11 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .another-column {
+        display: flex;
+        flex-direction: column;
+        /* border:1px solid rgb(200,200,200); */
+        margin-left: -7px;
+        background-color: white;
+        overflow: hidden;
+        /* border-radius: 10px; */
+      }
+
+      .row11 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 12px;
+      }
+
+      .row12 {
+        margin-bottom: 5px;
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-column">
+        <div class="img-container">
+          <img src="exercise-image.jpeg" />
+        </div>
+
+        <div class="column-container">
+          <div class="col1">
+            <div>
+              <p>supersimple.dev</p>
+            </div>
+            <div>
+              <p>@SuperSimpleDev</p>
+            </div>
+          </div>
+
+          <div class="col2">
+            <p>
+              What is backend web development? A complete overview. New video
+              up!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-row">
+        <div class="empty"></div>
+
+        <div class="column11">
+          <div class="empty-grey"></div>
+
+          <div class="another-column">
+            <div class="row11">
+              <p>youtube.com</p>
+            </div>
+
+            <div class="row12">
+              <p>Backend web develpment - a complete overview (2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12e</title>
+
+    <style>
+        p{
+            font-family:Arial;
+            margin-top:0;
+            margin-bottom:0;
+            display:inline-block
+        }
+
+        .container{
+            display:flex;
+            flex-direction:column;
+            column-gap: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(200, 200, 200);
+            width:300px;
+            border-radius:7px;
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-left:10px;
+            padding-right:10px;
+            row-gap: 10px;
+        }
+
+        .first-container, .second-container, .third-container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            padding-left:10px;
+           
+            
+            
+        }
+
+        .button{
+            color:white;
+            background-color: rgb(103, 103, 253);
+            padding-top:4px;
+            padding-bottom:4px;
+            padding-left:12px;
+            padding-right:12px;
+            border-radius:14px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first-container">
+            <div><p>Home</p></div>
+            <div class="button">14</div>
+        </div>
+        <div class="second-container">
+            <div><p>Notifications</p></div>
+            <div class="button">3</div>
+        </div>
+        <div class="third-container">
+            <div><p>Messages</p></div>
+            <div class="button">5</div>
+        </div>
+    </div>
+</body>
+</html>

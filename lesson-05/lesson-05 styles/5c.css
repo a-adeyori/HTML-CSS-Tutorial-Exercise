@@ -1,0 +1,27 @@
+p {
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .html-text {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .beginner-text {
+    color: grey;
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: rgb(51, 126, 51);
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
